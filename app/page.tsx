@@ -2,7 +2,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import clsx from 'clsx';
-import { lusitania } from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/fonts';
 
 export default function Page() {
   return (
@@ -16,7 +16,7 @@ export default function Page() {
           <p
             className={clsx(
               `text-xl text-gray-800 md:text-3xl md:leading-normal`,
-              lusitania.className,
+              lusitana.className,
             )}
           >
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
